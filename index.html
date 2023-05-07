@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Real Estate</title>
+  </head>
+  <body>
+    <section class="w-screen h-[100vh]">
+      <img
+        src="/images/hero.jpg"
+        alt="hero image"
+        class="w-full h-full object-cover"
+      />
+      <!-- overlay -->
+      <div class="absolute top-0 left-0 w-screen h-[100vh] bg-black/25"></div>
+      <!-- overlay end -->
+      <div
+        class="absolute gap-4 md:gap-7 top-0 left-0 w-full h-full flex flex-col justify-center text-center z-10 text-white leading-10 p-4 md:p-0"
+      >
+        <h1 class="text-5xl font-semibold tracking-wider">
+          Find Your Perfect Home
+        </h1>
+        <h5 class="text-lg font-normal tracking-wide">
+          Let us help you discover the perfect property that fits you & your
+          family
+        </h5>
+        <div class="w-full flex justify-center lg:p-0 p-3">
+          <div
+            class="grid sm:grid-cols-4 gap-4 w-full max-w-screen-lg bg-white min-h-[160px] rounded-lg p-3 items-center"
+          >
+            <input
+              type="text"
+              class="col-span-4 md:col-span-2 lg:col-span-1 text-black w-full px-2 py-3 border border-slate-300 rounded-md h-16"
+              placeholder="Enter Keyword..."
+              name=""
+              id=""
+            />
+            <select
+              name=""
+              id=""
+              class="col-span-4 md:col-span-2 lg:col-span-1 text-black px-2 py-3 border border-slate-300 rounded-md h-16"
+            >
+              <option>--Property Type--</option>
+              <option>Grande Antiqua</option>
+              <option>Key West</option>
+              <option>Maldives</option>
+              <option>Cozumel</option>
+            </select>
+            <select
+              name=""
+              id=""
+              class="col-span-4 md:col-span-2 lg:col-span-1 text-black px-2 py-3 border border-slate-300 rounded-md h-16"
+            >
+              <option>--Location--</option>
+              <option>Grande Antiqua</option>
+              <option>Key West</option>
+              <option>Maldives</option>
+              <option>Cozumel</option>
+            </select>
+            <button
+              class="col-span-4 md:col-span-2 lg:col-span-1 bg-red-500 hover:text-red-500 hover:bg-white font-medium px-2 py-3 border border-slate-300 rounded-md h-16"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i> Search Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article class="max-w-[1440px] mx-auto my-12">
+      <div class="text-center w-full">
+        <h1 class="text-xl md:text-4xl font-medium lg:px-0 px-3">
+          Explore Apartment Types
+        </h1>
+        <p class="text-base md:text-xl mt-4 lg:px-0 px-3 py-4">
+          Explore all the different types of apartments so you can choose the
+          best option for you
+        </p>
+      </div>
+      <div class="grid grid-cols-5 p-4 w-full gap-4">
+        <div class="lg:col-span-2 col-span-5 rounded-lg relative">
+          <img
+            src="./images/townhome.jpg"
+            alt="townhome"
+            class="w-full h-full object-cover rounded-lg hover:scale-105 transition-all ease-in duration-200"
+          />
+          <div class="absolute top-[70%] left-3">
+            <h4 class="text-xl text-white tracking-tight">Townhome</h4>
+            <p class="text-white text-sm">20 properties</p>
+          </div>
+        </div>
+        <div class="lg:col-span-1 col-span-5 rounded-lg relative">
+          <img
+            src="./images/bedroom.jpg"
+            alt="townhome"
+            class="w-full h-full object-cover rounded-lg hover:scale-105 transition-all ease-in duration-200"
+          />
+          <div class="absolute top-[70%] left-3">
+            <h4 class="text-xl text-white tracking-tight">House</h4>
+            <p class="text-white text-sm">20 properties</p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 lg:row-span-2 col-span-5 rounded-lg relative">
+          <img
+            src="./images/office.jpg"
+            alt="townhome"
+            class="w-full h-full object-cover rounded-lg hover:scale-105 transition-all ease-in duration-200"
+          />
+          <div class="absolute top-[70%] left-3">
+            <h4 class="text-xl text-white tracking-tight">Office</h4>
+            <p class="text-white text-sm">20 properties</p>
+          </div>
+        </div>
+        <div class="lg:col-span-1 col-span-5 rounded-lg relative">
+          <img
+            src="./images/studio.jpg"
+            alt="townhome"
+            class="w-full h-full object-cover rounded-lg hover:scale-105 transition-all ease-in duration-200"
+          />
+          <div class="absolute top-[70%] left-3">
+            <h4 class="text-xl text-white tracking-tight">Studio</h4>
+            <p class="text-white text-sm">20 properties</p>
+          </div>
+        </div>
+        <div class="lg:col-span-2 col-span-5 rounded-lg relative">
+          <img
+            src="./images/apartment.jpg"
+            alt="townhome"
+            class="w-full h-full object-cover rounded-lg hover:scale-105 transition-all ease-in duration-200"
+          />
+          <div class="absolute top-[70%] left-3">
+            <h4 class="text-xl text-white tracking-tight">Apartment</h4>
+            <p class="text-white text-sm">20 properties</p>
+          </div>
+        </div>
+      </div>
+      <!-- Location Menu -->
+      <div class="text-center w-full mt-4">
+        <h1 class="text-xl md:text-4xl font-medium lg:px-0 px-3">
+          Popular Places
+        </h1>
+        <p class="text-base md:text-xl mt-4 lg:px-0 px-3">
+          Poperties In Most Popular Places
+        </p>
+      </div>
+      <div class="md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/apartment.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">New York</p>
+            <p>203 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/newyork2.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">Chicago</p>
+            <p>22 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/chicago.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">Los Angeles</p>
+            <p>150 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/losangeles.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">San Fransisco</p>
+            <p>175 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/sanfransisco.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">Orlando</p>
+            <p>142 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/orlando.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">Miami</p>
+            <p>163 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/miami.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">Houston</p>
+            <p>99 properties</p>
+          </div>
+        </div>
+        <div class="flex items-center border-slate-400 border rounded-lg">
+          <div class="h-full w-full">
+            <img
+              src="./images/atlanta.jpg"
+              alt="townhome"
+              class="w-full rounded-l-lg h-full object-cover hover:scale-105 transition-all ease-in duration-200"
+            />
+          </div>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <p class="hover:text-red-500 font-semibold">Atlanta</p>
+            <p>44 properties</p>
+          </div>
+        </div>
+      </div>
+      <!-- Location Menu -->
+      <div class="text-center w-full mt-4">
+        <h1 class="text-xl md:text-4xl font-medium lg:px-0 px-3">
+          Premium Properties
+        </h1>
+        <p class="text-base md:text-xl mt-4 lg:px-0 px-3">
+          Search over 2000 properties to rent from the top agents in the country
+        </p>
+      </div>
+      <div class="md:grid md:grid-cols-3 gap-4 p-4">
+        <div
+          class="flex rounded-lg flex-col border border-gray-300 relative group"
+        >
+          <img
+            src="./images/bedroom.jpg"
+            alt="townhome"
+            class="w-full rounded-t-lg h-full object-cover"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full hover:bg-black/20 z-10 rounded-lg"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-full h-full group-hover:flex justify-between hidden gap-6 z-[99] rounded-lg"
+          >
+            <p class="text-base font-medium text-white p-4">
+              <span class="bg-green-500 rounded-sm px-1">Buy</span>
+              <span class="bg-green-500 rounded-sm px-1">Rent</span>
+            </p>
+            <p class="text-sm font-medium text-blue-500 p-4">
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+          </div>
+          <div
+            class="rounded-b-lg bg-white p-2 flex justify-between items-center z-50"
+          >
+            <div class="leading-8">
+              <p>Family Home</p>
+              <p>
+                <i class="fa-solid fa-bed"></i> 1
+                <i class="fa-solid fa-bath"></i> 2
+                <i class="fa-solid fa-ruler-combined"></i> 1500 sqft
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <p class="text-blue-500 hover:text-blue-900 cursor-pointer">
+                $450000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex rounded-lg flex-col border border-gray-300 relative group"
+        >
+          <img
+            src="./images/apartment.jpg"
+            alt="townhome"
+            class="w-full rounded-t-lg h-full object-cover"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full hover:bg-black/20 z-10 rounded-lg"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-full h-full group-hover:flex justify-between hidden gap-6 z-[99] rounded-lg"
+          >
+            <p class="text-base font-medium text-white p-4">
+              <span class="bg-green-500 rounded-sm px-1">Buy</span>
+              <span class="bg-green-500 rounded-sm px-1">Rent</span>
+            </p>
+            <p class="text-sm font-medium text-blue-500 p-4">
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+          </div>
+          <div
+            class="rounded-b-lg bg-white p-2 flex justify-between items-center z-50"
+          >
+            <div class="leading-8">
+              <p>Apartment</p>
+              <p>
+                <i class="fa-solid fa-bed"></i> 2
+                <i class="fa-solid fa-bath"></i> 2
+                <i class="fa-solid fa-ruler-combined"></i> 2500 sqft
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <p class="text-blue-500 hover:text-blue-900 cursor-pointer">
+                $142536
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex rounded-lg flex-col border border-gray-300 relative group"
+        >
+          <img
+            src="./images/office.jpg"
+            alt="townhome"
+            class="w-full rounded-t-lg h-full object-cover"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full hover:bg-black/20 z-10 rounded-lg"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-full h-full group-hover:flex justify-between hidden gap-6 z-[99] rounded-lg"
+          >
+            <p class="text-base font-medium text-white p-4">
+              <span class="bg-green-500 rounded-sm px-1">Buy</span>
+            </p>
+            <p class="text-sm font-medium text-blue-500 p-4">
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+          </div>
+          <div
+            class="rounded-b-lg bg-white p-2 flex justify-between items-center z-50"
+          >
+            <div class="leading-8">
+              <p>Office</p>
+              <p>
+                <i class="fa-solid fa-bed"></i> 2
+                <i class="fa-solid fa-ruler-combined"></i> 3000 sqft
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <p class="text-blue-500 hover:text-blue-900 cursor-pointer">
+                $780000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex rounded-lg flex-col border border-gray-300 relative group"
+        >
+          <img
+            src="./images/studio.jpg"
+            alt="townhome"
+            class="w-full rounded-t-lg h-full object-cover"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full hover:bg-black/20 z-10 rounded-lg"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-full h-full group-hover:flex justify-between hidden gap-6 z-[99] rounded-lg"
+          >
+            <p class="text-base font-medium text-white p-4">
+              <span class="bg-green-500 rounded-sm px-1">Buy</span>
+              <span class="bg-green-500 rounded-sm px-1">Rent</span>
+            </p>
+            <p class="text-sm font-medium text-blue-500 p-4">
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+          </div>
+          <div
+            class="rounded-b-lg bg-white p-2 flex justify-between items-center z-50"
+          >
+            <div class="leading-8">
+              <p>Studio</p>
+              <p>
+                <i class="fa-solid fa-bed"></i> 1
+                <i class="fa-solid fa-bath"></i> 2
+                <i class="fa-solid fa-ruler-combined"></i> 1200 sqft
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <p class="text-blue-500 hover:text-blue-900 cursor-pointer">
+                $450000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex rounded-lg flex-col border border-gray-300 relative group"
+        >
+          <img
+            src="./images/bedroom.jpg"
+            alt="townhome"
+            class="w-full rounded-t-lg h-full object-cover"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full hover:bg-black/20 z-10 rounded-lg"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-full h-full group-hover:flex justify-between hidden gap-6 z-[99] rounded-lg"
+          >
+            <p class="text-base font-medium text-white p-4">
+              <span class="bg-green-500 rounded-sm px-1">Buy</span>
+              <span class="bg-green-500 rounded-sm px-1">Rent</span>
+            </p>
+            <p class="text-sm font-medium text-blue-500 p-4">
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+          </div>
+          <div
+            class="rounded-b-lg bg-white p-2 flex justify-between items-center z-50"
+          >
+            <div class="leading-8">
+              <p>Family Home</p>
+              <p>
+                <i class="fa-solid fa-bed"></i> 1
+                <i class="fa-solid fa-bath"></i> 2
+                <i class="fa-solid fa-ruler-combined"></i> 1500 sqft
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <p class="text-blue-500 hover:text-blue-900 cursor-pointer">
+                $450000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex rounded-lg flex-col border border-gray-300 relative group"
+        >
+          <img
+            src="./images/bedroom.jpg"
+            alt="townhome"
+            class="w-full rounded-t-lg h-full object-cover"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full hover:bg-black/20 z-10 rounded-lg"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-full h-full group-hover:flex justify-between hidden gap-6 z-[99] rounded-lg"
+          >
+            <p class="text-base font-medium text-white p-4">
+              <span class="bg-green-500 rounded-sm px-1">Buy</span>
+              <span class="bg-green-500 rounded-sm px-1">Rent</span>
+            </p>
+            <p class="text-sm font-medium text-blue-500 p-4">
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+              <span
+                class="p-2 px-3 bg-white rounded-full hover:bg-blue-500 hover:text-white"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+          </div>
+          <div
+            class="rounded-b-lg bg-white p-2 flex justify-between items-center z-50"
+          >
+            <div class="leading-8">
+              <p>Family Home</p>
+              <p>
+                <i class="fa-solid fa-bed"></i> 1
+                <i class="fa-solid fa-bath"></i> 2
+                <i class="fa-solid fa-ruler-combined"></i> 1500 sqft
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <p class="text-blue-500 hover:text-blue-900 cursor-pointer">
+                $450000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
